@@ -5,19 +5,66 @@
           <title>Good Website</title>
           <style>
             h1 {
-              color: purple;
+              color: magenta;
+              border-style: solid;
+              border-width: 1px;
+              border-color: purple;
             }
 
             p{
               color:red;
             }
+            .purple-text{
+              color:purple;
+            }
+            .important{
+              font-weight: bold;
+            }
+            .important:hover {
+              background-color: pink;
+            }
 
-            body{
-              color:green;
+            .hex-color-1{
+              color: #00ffff;
+            }
+
+            .rgb-color-1{
+              color: rgb(155, 155, 155);
+            }
+
+            .hsl-color-1{
+              color: hsl(190, 25%, 50%)
+            }
+
+            .rgba-color-1{
+              color: rgba(155, 155, 155, .25);
+            }
+
+            #lead-paragraph {
+              color: purple;
+              font-weight: bold;
+              width: 75%;
             }
 
             body {
               color:skyblue;
+            }
+
+            img {
+              border-style: double;
+              border-color: red;
+              border-width: 3px;
+              width: 25%;
+            }
+
+            a[href="http://google.com"]{
+              background-color: Green;
+              padding: 1rem;
+            }
+
+            a[href="http://amazon.com"]{
+              background-color: Yellow;
+              padding: 1rem;
             }
           </style>
     </head>
@@ -25,18 +72,27 @@
       <h1>Welcome!</h1>
       <p>This is a paragraph!</p>
       <em>This adds emphasis</em>
-      <p>No really this is a <strong>2nd paragraph!</strong></p>
-      <p>Here comes an ordered list:</p>
+      <p class="purple-text">No really this is a <strong>2nd paragraph!</strong></p>
+      <p id="lead-paragraph">This is a lead-paragraph... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis egestas, augue in dignissim volutpat, erat sem condimentum nibh, sit amet venenatis nisl mi eget ipsum. Morbi a arcu eget metus scelerisque hendrerit. Suspendisse pulvinar ante id orci ullamcorper, ac ultrices turpis congue. Sed non tincidunt eros. Sed imperdiet porta dignissim. Ut efficitur metus justo, quis aliquam augue maximus eu. Morbi ut justo nisi. Donec elit tellus, commodo nec nulla in, aliquet tincidunt tellus.</p>
+
+      <p class="hex-color-1">Hex Color 1</p>
+      <p class="rgb-color-1">RGB Color 1</p>
+      <p class="rgba-color-1">RGBa Color 1</p>
+      <p class="hsl-color-1">HSL Color 1</p>
+      <p class="important purple-text">Here comes an ordered list:</p>
       <ol>
         <li>Item</li>
         <li>Item</li>
         <li>Item</li>
       </ol>
-      <p>This is an unordered list:</p>
+      <p class="important purple-text">This is an unordered list:</p>
       <ul>
         <li>Item A</li>
         <li>Item B</li>
         <li>Item C</li>
       </ul>
+      <a href="http://google.com">Link to Google</a>
+      <a href="http://amazon.com">Link to Amazon</a>
+      <img src="media/images/html5demo1.jpg" alt="Outline of semantic elements.">
     </body>
 </html>
