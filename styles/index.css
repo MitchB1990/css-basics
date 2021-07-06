@@ -1,0 +1,62 @@
+  h1 {
+    color: magenta;
+    border-style: solid;
+    border-width: 1px;
+    border-color: purple;
+  }
+
+  p{
+    color:red;
+  }
+  .purple-text{
+    color:purple;
+  }
+  .important{
+    font-weight: bold;
+  }
+  .important:hover {
+    background-color: pink;
+  }
+
+  .hex-color-1{
+    color: #00ffff;
+  }
+
+  .rgb-color-1{
+    color: rgb(155, 155, 155);
+  }
+
+  .hsl-color-1{
+    color: hsl(190, 25%, 50%)
+  }
+
+  .rgba-color-1{
+    color: rgba(155, 155, 155, .25);
+  }
+
+  #lead-paragraph {
+    color: purple;
+    font-weight: bold;
+    width: 75%;
+  }
+
+  body {
+    color:skyblue;
+  }
+
+  img {
+    border-style: double;
+    border-color: red;
+    border-width: 3px;
+    width: 25%;
+  }
+
+  a[href="http://google.com"]{
+    background-color: Green;
+    padding: 1rem;
+  }
+
+  a[href="http://amazon.com"]{
+    background-color: Yellow;
+    padding: 1rem;
+  }
